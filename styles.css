@@ -1,0 +1,94 @@
+
+body{
+    background-color: black;
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.titulo{
+flex-direction: column;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+
+li{
+    display: inline-block;
+    margin: 30px;
+    color: aliceblue;
+}
+
+a{
+    color: aliceblue;
+    border: solid; color: green;
+padding: 10px;
+border-radius: 15px;
+}
+
+a:hover{
+color: red;
+transition: 0.3s;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 20px;
+   line-height: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+spam{
+    font-size: 50px;
+color: green
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    color: aliceblue;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+height: 50px;
+width: 50%;
+background-color: green;
+color: aliceblue;
+font-weight: bold;
+}
+
+ 
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+font-size: 16px;
+}
+
+footer img{
+ width: 4%;
+}
